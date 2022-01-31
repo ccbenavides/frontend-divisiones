@@ -4,7 +4,7 @@ import axios from 'axios'
 const fetchDivision = async () => {
     try {
         const response = await axios.get(
-            `http://localhost:8000/api/divisions`
+            `http://143.244.181.122/api/divisions`
         )
         return response.data
     } catch (error) {
